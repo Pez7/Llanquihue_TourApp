@@ -68,7 +68,7 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 
 
 
-git clone https://github.com/Pez7/Llanquihue\_TourApp
+git clone https://github.com/Pez7/Llanquihue_TourApp
 
 
 
@@ -84,7 +84,7 @@ Los servicios turísticos disponibles se mostrarán listados en la consola de Ne
 
 
 
-Repositorio GitHub: https://github.com/Pez7/Llanquihue\_TourApp
+Repositorio GitHub: https://github.com/Pez7/Llanquihue_TourApp
 
 
 
