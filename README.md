@@ -20,9 +20,9 @@ agencia de turismo ubicada en la Región de Los Lagos.
 
 
 
-\*\*Semana 6 — Herencia y polimorfismo aplicado a servicios turísticos\*\*
+\*\*Semana 7 — Aplicación de sobreescritura y polimorfismo en jerarquías  \*\*
 
-Objetivo de la semana: Comprender y aplicar la creación de jerarquías de clases utilizando herencia simple y polimorfismo en Java, herramientas fundamentales para construir sistemas escalables y mantenibles.
+Objetivo de la semana: gestionar dinamicamente diversos tipos de servicios turísticos.
 
 
 
@@ -32,7 +32,8 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 
 🧱 Estructura general del proyecto
 📁 src/
-├── ui/      # Clase principal con el método main
+
+├── ui/      # Clase principal con el método Main
 ├── model/   # Clases de dominio (ServicioTuristico, RutaGastronomica, PaseoLacustre, ExcursionCultural)
 ├── data/    # Gestión e instanciación de servicios (GestorServicios)
 
