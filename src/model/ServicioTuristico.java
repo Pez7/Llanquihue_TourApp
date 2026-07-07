@@ -25,9 +25,8 @@ public class ServicioTuristico {
         this.duracionHoras = duracionHoras;
     }
 
-    @Override
-    public String toString() {
-        return "Servicio Turístico" + " Nombre: " + nombre + ", duración: " + duracionHoras + "Hrs. ";
+    public void mostrarInformacion() {
+        System.out.println("Servicio Turístico Nombre: " + nombre + ", duración: " + duracionHoras + "Hrs.");
     }
     
 }
