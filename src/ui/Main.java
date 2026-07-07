@@ -16,6 +16,7 @@ public class Main {
         for(ServicioTuristico servicio : servicios){
             
            servicio.mostrarInformacion();
+           System.out.println("********************************");
         }
         
     }
