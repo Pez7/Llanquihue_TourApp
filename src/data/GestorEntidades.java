@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import model.ColaboradorExterno;
 import model.GuiaTuristico;
+import model.Persona;
 import model.Vehiculo;
 import model.RutaGastronomica;
 import model.Registrable;
@@ -30,13 +31,29 @@ public class GestorEntidades {
 
         for (Registrable registro : lista) {
 
-            switch (registro) {
-                case ColaboradorExterno colaborador -> resumen += colaborador.mostrarResumen();
-                case GuiaTuristico guia -> resumen += guia.mostrarResumen();
-                case Vehiculo transporte -> resumen += transporte.mostrarResumen();
-                case RutaGastronomica ruta -> resumen += ruta.mostrarResumen();
-                default -> {
-                }
+            if (registro instanceof ColaboradorExterno) {
+
+                ColaboradorExterno colaborador = (ColaboradorExterno) registro;
+
+                resumen += colaborador.mostrarResumen();
+
+            } else if (registro instanceof GuiaTuristico) {
+
+                GuiaTuristico guia = (GuiaTuristico) registro;
+
+                resumen += guia.mostrarResumen();
+
+            } else if (registro instanceof Vehiculo) {
+
+                Vehiculo transporte = (Vehiculo) registro;
+
+                resumen += transporte.mostrarResumen();
+                
+            } else if (registro instanceof RutaGastronomica) {
+
+                RutaGastronomica ruta = (RutaGastronomica) registro;
+
+                resumen += ruta.mostrarResumen();
             }
 
             resumen += "\n-----------------------------\n";
