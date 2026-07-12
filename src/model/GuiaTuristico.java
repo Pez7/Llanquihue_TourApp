@@ -29,7 +29,7 @@ public class GuiaTuristico extends Persona implements Registrable {
 
     @Override
     public String mostrarResumen() {
-        return "Guia turistico: " +super.mostrarInformacion() + "\nIdioma: "+idioma+"\nTipo de tour: "+tipoDeTour+".";
+        return "Guía turístico: " +super.mostrarInformacion() + "\nIdioma: "+idioma+"\nTipo de tour: "+tipoDeTour+".";
 
     }
     

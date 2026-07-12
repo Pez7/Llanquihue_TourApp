@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import model.ColaboradorExterno;
 import model.GuiaTuristico;
-import model.Persona;
 import model.Vehiculo;
 import model.RutaGastronomica;
 import model.Registrable;
