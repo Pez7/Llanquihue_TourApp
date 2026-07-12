@@ -1,7 +1,7 @@
 
 package model;
-
-public class RutaGastronomica extends ServicioTuristico{
+        
+public class RutaGastronomica extends ServicioTuristico implements Registrable{
     private int numeroDeParadas;
 
     public RutaGastronomica(int numeroDeParadas, String nombre, int duracionHoras) {
@@ -18,9 +18,8 @@ public class RutaGastronomica extends ServicioTuristico{
     }
 
     @Override
-    public void mostrarInformacion() {        
-        super.mostrarInformacion();
-         System.out.println("Tipo: ruta gastronómica, Paradas: " + numeroDeParadas+ ".");
+    public String mostrarResumen() {               
+         return "Servicio turístico Gastronómico\n"+super.mostrarInformacion()+"\nParadas: " + numeroDeParadas ;
     }
     
 }
